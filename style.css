@@ -14,4 +14,38 @@ body *::before {
 body {
 	font-family: sans-serif;
 	line-height: 1;
+
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container {
+	height: 500px;
+	width: 500px;
+
+	border: solid 1px black;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn {
+	font-size: 16px;
+	font-weight: 900;
+	color: #f5f5f5;
+	padding: 10px 18px;
+	background-color: goldenrod;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.4s;
+
+	margin: 16px 0;
+}
+
+.btn:hover {
+	background-color: rgb(115, 86, 12);
 }
