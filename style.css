@@ -1,0 +1,17 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body,
+body *,
+body *::after,
+body *::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+}
